@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: yellow;
+}
+.container{
+    background: yellow;
+
+}
+.blog{
+    display: flex;
+    justify-content: space-between;
+}
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif        , 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(255, 3, 3);
+    text-shadow:  0 0 2px rgb(113, 66, 66);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-shadow:  0 0 2px black;
+    font-size: 30px;
+}
+input{
+    margin: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 30px;
+}
+.btn{
+    margin: 5px;
+}
